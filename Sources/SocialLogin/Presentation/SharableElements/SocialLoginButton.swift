@@ -90,7 +90,7 @@ public class SocialButtonView: UIView {
         commonInit()
     }
     
-    func configureForLogin(with type: SocialButtonViewType) {
+    public func configureForLogin(with type: SocialButtonViewType) {
         backgroundColor = type.backgroundColor
         button.setTitleColor(type.textColor, for: .normal)
         button.setTitle(type.loginText, for: .normal)
@@ -102,7 +102,7 @@ public class SocialButtonView: UIView {
         imageView.image = type.icon
     }
     
-    func configureForRegistration(with type: SocialButtonViewType) {
+    public func configureForRegistration(with type: SocialButtonViewType) {
         backgroundColor = type.backgroundColor
         button.setTitleColor(type.textColor, for: .normal)
         button.setTitle(type.registerText, for: .normal)
