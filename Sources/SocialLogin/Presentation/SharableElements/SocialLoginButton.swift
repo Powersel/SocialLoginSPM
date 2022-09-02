@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum SocialButtonViewType {
+public enum SocialButtonViewType {
     case google
     case facebook
     case twitter
@@ -74,7 +74,7 @@ enum SocialButtonViewType {
 }
 
 @IBDesignable
-class SocialButtonView: UIView {
+public class SocialButtonView: UIView {
     private var contentView: UIView?
     
     @IBOutlet private var imageView: UIImageView!
