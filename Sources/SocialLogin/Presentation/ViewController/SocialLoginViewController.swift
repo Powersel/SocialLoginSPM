@@ -12,11 +12,12 @@ public final class SocialLoginViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureUI()
     }
 }
 
 private extension SocialLoginViewController {
     func configureUI() {
-        
+        view.backgroundColor = .blue
     }
 }
