@@ -26,7 +26,6 @@
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oz-pF-h8g">
                     <rect key="frame" x="0.0" y="0.0" width="470" height="55"/>
-                    <state key="normal" title="Button"/>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="k9P-X9-Pr7"/>

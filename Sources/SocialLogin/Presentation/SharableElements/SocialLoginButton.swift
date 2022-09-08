@@ -78,7 +78,7 @@ public class SocialButtonView: UIView {
     private var contentView: UIView?
     
     @IBOutlet private var imageView: UIImageView!
-    @IBOutlet var button: UIButton!
+    @IBOutlet public var button: UIButton!
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
