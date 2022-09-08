@@ -130,7 +130,7 @@ private extension SocialButtonView {
     }
     
     func loadViewFromNib() -> UIView? {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         let nib = UINib(nibName: "SocialButtonView", bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as? UIView
     }
